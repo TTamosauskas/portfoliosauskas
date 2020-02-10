@@ -8,6 +8,7 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteUrl: `https://www.example.com`,
   },
   plugins: [
     {
@@ -15,6 +16,7 @@ module.exports = {
       // See the theme's README for all available options
       options: {},
     },
+  
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -47,5 +49,8 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-sitemap`
   ],
 }
+
+
