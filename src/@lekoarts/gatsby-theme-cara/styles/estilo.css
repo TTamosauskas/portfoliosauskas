@@ -4,10 +4,11 @@ img#eumesmo {
  border: 7px solid rgb(128, 0, 128);
 }
 
-body #___gatsby main .css-5p9bbd-Hero .css-f2p2lg-Inner h1.css-jdhkqq {font-size:3em;}
+
 
 
 @media screen and (max-width: 641px){
-  img#eumesmo {float: none;}
-  body #___gatsby main .css-5p9bbd-Hero .css-f2p2lg-Inner {text-align:center;}
+  body #___gatsby main .css-5p9bbd-Hero #zeroTheHero h1.css-jdhkqq {font-size:2.5em;}
+  #zeroTheHero img#eumesmo {float: none;}
+  body #___gatsby main #zeroTheHero {text-align:center;}
 }
