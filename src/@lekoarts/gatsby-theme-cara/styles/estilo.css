@@ -3,3 +3,11 @@ img#eumesmo {
  border-radius: 138px; 
  border: 7px solid rgb(128, 0, 128);
 }
+
+body #___gatsby main .css-5p9bbd-Hero .css-f2p2lg-Inner h1.css-jdhkqq {font-size:3em;}
+
+
+@media screen and (max-width: 641px){
+  img#eumesmo {float: none;}
+  body #___gatsby main .css-5p9bbd-Hero .css-f2p2lg-Inner {text-align:center;}
+}

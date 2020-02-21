@@ -5,7 +5,7 @@ const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
   const isDark = colorMode === `light`
   const toggleColorMode = (e: any) => {
-    setColorMode(isDark ? `dark` : `light`)
+    setColorMode(isDark ? `light` : `light`)
   }
 
   return (
