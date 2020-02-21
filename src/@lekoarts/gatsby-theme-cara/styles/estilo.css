@@ -6,7 +6,8 @@ img#eumesmo {
 
 
 @media screen and (max-width: 641px){
-  body #___gatsby main #zeroTheHero h1.css-jdhkqq {font-size:2em !Important;}
+  body #___gatsby main #zeroTheHero h1 {font-size:2em !Important;}
   #zeroTheHero img#eumesmo {float: none;}
   body #___gatsby main #zeroTheHero {text-align:center;}
 }
+
